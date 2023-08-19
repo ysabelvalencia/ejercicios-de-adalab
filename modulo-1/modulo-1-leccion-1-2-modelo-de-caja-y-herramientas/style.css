@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sectioncontent-1{
+    background-color: goldenrod;
+}
+
+.marktext {
+    background-color:darkkhaki;
+}
+.contentbox-1, .contentbox-2, .contentbox-3 {
+     background-color: aqua;
+     
+}
+
+.box1 {
+    display: block;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}    
+
+.box2 {
+    display: inline-block;
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+}
+
+.box3{
+    display: inline;
+    background-color:chartreuse;
+    width: 100px;
+    height: 100px;
+
+}
+
+.sectioncontent-2{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.picture-1 {
+    height: 100px;
+    width: 100px;
+
+}
+
+.contentbox-4{
+    height: 100px;
+    width: 100px;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    background-image: url(https://www.nationalgeographic.com.es/medio/2023/06/01/istock-604372058-1_00000000_230601162045_480x480.jpg);
+}
+
