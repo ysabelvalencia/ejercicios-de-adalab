@@ -1,0 +1,15 @@
+.sectioncontent{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    display: flex;
+}
+
+
+.picture-2 {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+}

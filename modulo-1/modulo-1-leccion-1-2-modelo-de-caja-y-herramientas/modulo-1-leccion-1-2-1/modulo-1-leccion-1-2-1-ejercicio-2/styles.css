@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contentbox-1, .contentbox-2, .contentbox-3 {
+     background-color: aqua;
+     
+}
+
+.box1 {
+    display: block;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}    
+
+.box2 {
+    display: inline-block;
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+}
+
+.box3{
+    display: inline;
+    background-color:chartreuse;
+    width: 100px;
+    height: 100px;
+
+}

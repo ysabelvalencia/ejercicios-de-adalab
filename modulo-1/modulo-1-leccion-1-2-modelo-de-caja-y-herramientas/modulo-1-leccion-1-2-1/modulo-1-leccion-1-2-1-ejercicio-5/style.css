@@ -1,0 +1,19 @@
+.contentbox{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color:greenyellow;
+    background-image: url(https://www.nationalgeographic.com.es/medio/2023/06/01/istock-604372058-1_00000000_230601162045_480x480.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: 5px double cyan;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 500px;
+}
