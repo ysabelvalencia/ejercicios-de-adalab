@@ -6,7 +6,7 @@
 }
   
   body {
-    margin:0;
+    margin:var(--zero-value)
   }
   
   header{
@@ -30,7 +30,7 @@
   
   .title{
     color: var(--secondary-color);
-    margin:0;}
+    margin:var(--zero-value);}
   
   .subtitle{
     color: var(--secondary-color);

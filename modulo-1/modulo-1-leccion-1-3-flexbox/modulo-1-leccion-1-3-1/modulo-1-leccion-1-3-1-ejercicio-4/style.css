@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid purple;
+    padding-top: 20px;
+
+}
+
+.news-container {
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    
+}
+
+
+.picture  {
+    height: 105px;
+    width: 416px;
+}
+.text-container {
+    font-size: 10px;
+    width: 400px;
+    
+}
+
+.news-container .n-5 {
+    order:1;
+}

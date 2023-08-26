@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}
+
+html {
+
+    font-size: 62.5%;
+}
+
+/* body {
+    display: inline-block;
+    min-width: 100vw;
+    
+} */
+
+.header {
+    height: 12rem;
+    background-color: aquamarine;
+
+}
+
+h1 {
+    color: black;
+}
+
+/* .main {
+    background-color: rgb(187, 255, 0);
+    overflow:auto;
+    min-height: 65vh;
+    max-height: auto;
+    
+} */
+
+.footer {
+    background-color: brown;
+    height: 10rem;
+    position:relative;
+    
+}

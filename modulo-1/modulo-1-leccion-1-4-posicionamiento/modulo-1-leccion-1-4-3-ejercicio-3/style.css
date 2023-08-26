@@ -1,0 +1,72 @@
+:root {
+  
+    --angulo: 1deg;
+    --transparencia: 0.8;
+  }
+  #contenedor {
+    perspective: 4000px;
+    
+  }
+  .cara {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+  }
+  #frente {
+    background: rgb(224, 22, 112, var(--transparencia));
+    transform: translateZ(500px);
+  }
+  #derecha {
+    background: rgb(20, 217, 196, var(--transparencia));
+    transform: translateX(-50px) rotateY(var(--angulo));
+  }
+  #arriba {
+    background: rgb(132, 49, 141, var(--transparencia));
+    transform: translateY(-50px) rotateX(var(--angulo));
+  }
+  #abajo {
+    background: #ffff00;
+    transform: translateY(-50px) rotateX(var(--angulo)) rotateX(var(--angulo)) rotateX(var(--angulo));
+    color: rgb(0, 0, 0, 0.2);
+    z-index: -3
+  }
+  #izquierda {
+    background: #14d9c4;
+    transform:  translateX(-50px) rotateY(var(--angulo)) rotateY(var(--angulo)) rotateY(var(--angulo));
+    color: rgb(0, 0, 0, 0.2);
+    z-index: -3
+  }
+  #trasera {
+    background: rgb(0, 255, 255, 0.2);
+    color: rgb(0, 0, 0, 0.2);
+    transform: translateZ(-50px) rotateY(var(--angulo)) rotateY(var(--angulo));
+    z-index: -3
+  }
+  .eje {
+    border-top: #4a86e8 solid;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 160px;
+    text-align: right;
+    color: #4a86e8;
+    
+    
+  }
+  #x {
+    transform: translateZ(-50px);
+  }
+  #y {
+    transform: translateZ(-70px) rotateZ(-90deg);
+  }
+  #z {
+    transform: translateZ(-50px) rotateY(-90deg);
+  }
+  

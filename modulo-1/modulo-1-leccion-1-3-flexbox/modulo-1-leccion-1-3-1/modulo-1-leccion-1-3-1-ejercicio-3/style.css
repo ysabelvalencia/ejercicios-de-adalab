@@ -1,0 +1,24 @@
+*{
+box-sizing: border-box;
+
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    
+}
+
+.menu {
+    margin: 20px;
+    display:inline-block;
+
+}
+
+.item {
+    display:inline-block;
+    list-style: none;
+    margin-inline-start: 170px;
+    justify-content:flex-start;
+}
