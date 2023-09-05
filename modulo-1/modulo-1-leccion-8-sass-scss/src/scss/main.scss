@@ -7,27 +7,37 @@
 // @import 'layout/footer';
 // @import 'pages/index';
 
+$colorbody: #010101;
+$font-size-body: 18px;
+$font-family-body:arial, sans-serif;
+$margin-wrapper: 0 60px;
+$bcolor-hf: yellow;
+$bcolor-main: cyan;
+$height: 100px;
+
 
 body {
-    color: #414141; /* Pasar a variable */
+    color: $colorbody;
+
     display: flex;
-    font: 16px arial, sans-serif;/* pasar a dos variables: texto y tamaño de texto */
+    font-size: $font-size-body;
+    font-family: $font-family-body;
+
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
   }
   .wrapper {
-    margin: 0 40px;
+    margin: $margin-wrapper;
   }
   .header {
-    background: lightgrey; /* Pasar a variable */
-    height: 100px; /* Pasar a variable */
+    background: $color-hf;
+    height:$height;
     padding: 10px 0;
     box-sizing: border-box;
   }
   .main {
-    background: #aaa; /* Pasar a variable */
-    flex: 1;
+    background: $bcolor-main;
   }
   .main__title {
     color: #fff;
@@ -38,8 +48,8 @@ body {
     line-height: 140%;
   }
   .footer {
-    background: lightgrey; /* Pasar a variable */
-    height: 100px; /* Pasar a variable */
+    background:$color-hf;
+    height: $height;
     padding: 10px 0;
     box-sizing: border-box;
   }
