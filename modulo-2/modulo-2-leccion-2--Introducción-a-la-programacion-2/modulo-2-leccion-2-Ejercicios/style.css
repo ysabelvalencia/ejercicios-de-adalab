@@ -1,0 +1,20 @@
+.main {
+    background-color: pink;
+  }
+  
+  .main__title {
+    color: red;
+  }
+
+.superBlack {
+    font-weight: 900;
+    color: black;
+    background-color: chartreuse;
+}
+
+li {
+    list-style: none;
+    font-size: 4rem;
+    text-align: center;
+    font-weight:900;
+}

@@ -1,0 +1,23 @@
+.buttonOne {
+    border: 0.1rem solid red;
+    background-color: red;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+.buttonTwo {
+    border: 0.1rem solid red;
+    background-color: red;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.alternative {
+    opacity: 0;
+
+}
